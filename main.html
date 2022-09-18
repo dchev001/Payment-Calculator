@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <head>
+        <title>Payment Calculator</title>
+        <link rel="stylesheet" href="css/design.css">
+        <script src="javascript/main.js"></script>
+    </head>
+
+    <body>
+        <h1>Payment Calculator</h1>
+
+        <div class="menu_background">
+            <p>
+                <label for="hourly_pay">Hourly Pay:</label><br>
+                <input type="text" id="hourly_pay" name="hourly_pay" required></br>
+            </p>
+
+            <p>
+                <label for="hour_work">Hours Worked:</label><br>
+                <input type="text" id="hour_work" name="hour_work" required></br>
+            </p>
+
+            <p><button onclick="calculatePayment()">Calculate</button></p>
+        </div>
+
+        <p id="info"></p>
+    </body>
+</html>
